@@ -30,3 +30,25 @@ To download or clone a repository:
 git clone <URL>
 
 git clone https://github.com/rakeshkorukonda/Chef_devops_training.git
+
+
+
+git status 
+(this will show status of repisitory. A local repository is directory where git folder is placed.
+this git folder will monitor the other files that are in the same directory as git folder has places)
+
+git status will show any new files are added to repisotory where git folder is there
+
+for eg--> if you added a new text file in directory say new.txt
+
+git status command will show the files that are newly added to repository.
+which is new.txt
+--------------------
+git add .
+-----------------------
+git commit
+--------------------
+now new.txt is also added to git folder
+
+push it to central repisitory
+
